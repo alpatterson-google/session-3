@@ -25,6 +25,9 @@ function createLastSeenItem(record) {
   const item = document.createElement('li');
 
   // STEP 4: Create paragraph element and add to list item
+  const p = document.createElement('p');
+  p.textContent = record.location;
+  item.appendChild(p);
 
   // Add a button to delete the item from list
   const button = document.createElement('input');
