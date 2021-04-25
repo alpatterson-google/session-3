@@ -12,6 +12,7 @@ function handleAddRecord(event) {
   addLastSeen(record);
 
   // STEP 6: Clear text input
+  document.getElementById('last-seen-location').value="";
 }
 
 function addLastSeen(record) {
