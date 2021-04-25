@@ -9,7 +9,7 @@ function handleAddRecord(event) {
   const record = getRecordFromForm(event);
   
   // STEP 3: Replace alert function with addLastSeen
-  alert(record);
+  addLastSeen(record);
 
   // STEP 6: Clear text input
 }
