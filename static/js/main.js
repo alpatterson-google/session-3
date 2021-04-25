@@ -1,5 +1,6 @@
 const lastSeenForm = document.getElementById('last-seen-form');
 // STEP 2: Add `handleAddRecord` event listener on form's submit events
+lastSeenForm.addEventListener('submit', handleAddRecord);
 
 // Helper functions
 function handleAddRecord(event) {
