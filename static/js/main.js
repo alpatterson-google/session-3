@@ -35,6 +35,7 @@ function createLastSeenItem(record) {
   button.src = '/static/img/delete.png';
   button.className = 'delete-button';
   // STEP 5: Add onclick event to remove list item
+  button.onclick = () => { item.remove() };
   item.append(button);
 
   return item;
